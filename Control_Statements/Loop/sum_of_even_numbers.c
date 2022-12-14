@@ -5,7 +5,7 @@ int main()
     int sum = 0;
     printf("\nEnter any positive number: ");
     scanf("%d", &num);
-    for (int i = 0; i <= num; i++)
+    for (int i = 1; i <= num; i++)
     {
         if (i % 2 == 0)
         {
