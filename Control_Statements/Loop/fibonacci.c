@@ -6,12 +6,12 @@ int main()
     printf("\nHow many numbers you want to print: ");
     scanf("%d", &num);
     printf("\nThe fibonacci numbers to %dth place is: ", num);
-    printf("\n%d", a);
-    printf("\n%d", b);
-    for (int i = 0; i < num; i++)
+    printf("%d+", a);
+    printf("%d+", b);
+    for (int i = 0; i < num - 2; i++)
     {
         sum = a + b;
-        printf("\n%d", sum);
+        printf("%d+", sum);
         a = b;
         b = sum;
     }

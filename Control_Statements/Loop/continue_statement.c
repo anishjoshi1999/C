@@ -2,14 +2,14 @@
 #include <stdio.h>
 int main()
 {
-    printf("\nBefore starting for loop");
     for (int i = 0; i < 10; i++)
     {
-        printf("\nHello World from above");
-        continue;
-        printf("\nHello World from below");
+        if (i == 5)
+        {
+            break;
+        }
+        printf("\nLoop is working");
     }
-    printf("\nLooping finished");
 
     return 0;
 }
